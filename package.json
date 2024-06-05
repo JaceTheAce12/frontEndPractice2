@@ -1,0 +1,20 @@
+{
+  "dependencies": {
+    "express": "^4.19.2"
+  },
+  "name": "frontendpractice2",
+  "version": "1.0.0",
+  "main": "index.js",
+  "devDependencies": {
+    "sass": "^1.77.4"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css": "sass scss/styles.scss css/styles.css",
+    "watch-css": "sass --watch scss/styles.scss:css/styles.css"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": ""
+}
